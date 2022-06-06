@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto'
+}
+
+
+.navHeader {
+    width: 100%;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    background-color: #1CD1B0;
+    position: absolute;
+}
+
+.pHeader {
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.divHeader {
+    position: relative;
+    width: 100%;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    position: relative;
+    width: 128px;
+    height: 47px;
+    left: 28px;
+    top: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.divMain {
+    margin-top: 200px;
+}
+
+.article1, article {
+    width: 300px;
+    position: relative;
+    left: 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+}
+
+.por-bat1, .portada {
+    background-image: url(../img/Batmanimg.png);
+    width: 300px;
+    height: 193px;
+    left: 32px;
+}
+
+.bat-cor1, .corazon {
+    left: 6.25%;
+    right: 0;
+    top: 3%;
+    bottom: 6.25%;
+    position: absolute  ;
+}
+
+.bat-per1, .perfil {
+    border-radius: 50%;
+    position: relative;
+    left: 86px;
+    bottom: 62px
+}
+
+.batman {
+    text-align: center;
+    position: relative;
+    bottom: 33px;
+}
+
+.textbat {
+    padding: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.buttonVerMas {
+    width: 128.78px;
+    height: 48.52px;
+    left: 86px;
+    bottom: 20px;
+    position: relative;
+    background-color: #00669F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vermas {
+    color: white;
+    text-decoration: none;
+}
+
+.vermas:link {
+    color: white;
+    text-decoration: none;
+}
+
+.vermas:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.vermas:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.vermas:active {
+    color: white;
+    text-decoration: none;
+}
+
+.por-harley1 {
+    background-image: url(../img/Harleyimg.png);
+    width: 300px;
+    height: 193px;
+    left: 32px;
+}
+
+.article2 {
+    margin: 0 276px;
+}
+
+footer {
+    margin-top: 200px;
+    position: absolute;
+    width: 100%;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.pFooter {
+    left: 20px;
+    position: relative;
+    color: white;
+}
